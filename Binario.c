@@ -10,8 +10,8 @@ void decimal_para_binario(int n) {
         i++;
     }
 
-    if(i%4!=0){
-        while( i%4!=0){
+    if(i % 4 != 0){
+        while(i % 4 != 0){
             numero_binario[i] = 0;
             i++;
         }
